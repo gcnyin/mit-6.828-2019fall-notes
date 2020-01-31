@@ -6,6 +6,21 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://gcnyin.github.io/mit-6.828-2019fall-notes/suggestions/</loc>
+     <lastmod>2020-01-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://gcnyin.github.io/mit-6.828-2019fall-notes/faq/</loc>
+     <lastmod>2020-01-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://gcnyin.github.io/mit-6.828-2019fall-notes/about/</loc>
+     <lastmod>2020-01-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://gcnyin.github.io/mit-6.828-2019fall-notes/chapter1/system-call/</loc>
      <lastmod>2020-01-31</lastmod>
      <changefreq>daily</changefreq>
@@ -26,12 +41,7 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://gcnyin.github.io/mit-6.828-2019fall-notes/faq/</loc>
-     <lastmod>2020-01-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://gcnyin.github.io/mit-6.828-2019fall-notes/about/</loc>
+     <loc>https://gcnyin.github.io/mit-6.828-2019fall-notes/lab1/ls/</loc>
      <lastmod>2020-01-31</lastmod>
      <changefreq>daily</changefreq>
     </url>

@@ -42,7 +42,7 @@
     
     
       
-        <title>About - Mit 6.828 Notes</title>
+        <title>关于 - Mit 6.828 Notes</title>
       
     
     
@@ -113,7 +113,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                About
+                关于
               
             </span>
           
@@ -189,11 +189,17 @@
   <li class="md-tabs__item">
     
       <a href=".." class="md-tabs__link md-tabs__link--active">
-        Home
+        主页
       </a>
     
   </li>
 
+      
+        
+      
+        
+      
+        
       
         
   
@@ -220,10 +226,6 @@
     </li>
   
 
-      
-        
-      
-        
       
     </ul>
   </div>
@@ -274,9 +276,54 @@
 
 
   <li class="md-nav__item">
-    <a href=".." title="Home" class="md-nav__link">
-      Home
+    <a href=".." title="主页" class="md-nav__link">
+      主页
     </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../suggestions/" title="一些建议" class="md-nav__link">
+      一些建议
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../faq/" title="踩坑指南" class="md-nav__link">
+      踩坑指南
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="关于" class="md-nav__link md-nav__link--active">
+      关于
+    </a>
+    
   </li>
 
     
@@ -287,13 +334,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
     
-    <label class="md-nav__link" for="nav-2">
+    <label class="md-nav__link" for="nav-5">
       Chapter1
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-2">
+      <label class="md-nav__title" for="nav-5">
         Chapter1
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -347,13 +394,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
     
-    <label class="md-nav__link" for="nav-3">
+    <label class="md-nav__link" for="nav-6">
       Lab1
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-3">
+      <label class="md-nav__title" for="nav-6">
         Lab1
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -365,47 +412,26 @@
 
 
   <li class="md-nav__item">
-    <a href="../lab1/csp/" title="CSP-Golang" class="md-nav__link">
-      CSP-Golang
+    <a href="../lab1/csp/" title="Golang版Primes" class="md-nav__link">
+      Golang版Primes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../lab1/ls/" title="ls实现注释" class="md-nav__link">
+      ls实现注释
     </a>
   </li>
 
         
       </ul>
     </nav>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="../faq/" title="FAQ" class="md-nav__link">
-      FAQ
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-  
-
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="About" class="md-nav__link md-nav__link--active">
-      About
-    </a>
-    
   </li>
 
     
@@ -451,6 +477,22 @@
                 
 
 
+  <h2 id="__comments">评论</h2>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = "https://gcnyin.github.io/mit-6.828-2019fall-notes/about/";
+      this.page.identifier =
+        "about/";
+    };
+    (function() {
+      var d = document, s = d.createElement("script");
+      s.src = "//gcnyin.disqus.com/embed.js";
+      s.setAttribute("data-timestamp", +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+
               
             </article>
           </div>
@@ -463,7 +505,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../faq/" title="FAQ" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../faq/" title="踩坑指南" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -472,11 +514,25 @@
                 <span class="md-footer-nav__direction">
                   上一页
                 </span>
-                FAQ
+                踩坑指南
               </span>
             </div>
           </a>
         
+        
+          <a href="../chapter1/system-call/" title="System Call" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  下一页
+                </span>
+                System Call
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
         
       </nav>
     </div>
