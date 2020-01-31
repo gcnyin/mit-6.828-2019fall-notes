@@ -7,14 +7,15 @@ site_author: gcnyin
 copyright: "Copyright &copy; 2020 gcnyin"
 nav:
   - Home: index.md
+  - Suggestions: suggestions.md
+  - FAQ: faq.md
+  - About: about.md
   - Chapter1:
       - System Call: chapter1/system-call.md
       - File Descriptor: chapter1/file-descriptor.md
       - Pip Implementation: chapter1/riscv-pipe-implementation.md
   - Lab1:
       - CSP-Golang: lab1/csp.md
-  - FAQ: faq.md
-  - About: about.md
 theme:
   language: "zh"
   palette:
