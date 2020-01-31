@@ -15,7 +15,8 @@ nav:
       - File Descriptor: chapter1/file-descriptor.md
       - Pip Implementation: chapter1/riscv-pipe-implementation.md
   - Lab1:
-      - CSP-Golang: lab1/csp.md
+      - Golang版Primes: lab1/csp.md
+      - ls实现注释: lab1/ls.md
 theme:
   language: "zh"
   palette:
