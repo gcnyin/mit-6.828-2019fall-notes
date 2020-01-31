@@ -6,10 +6,10 @@ repo_url: https://github.com/gcnyin/mit-6.828-2019fall-notes
 site_author: gcnyin
 copyright: "Copyright &copy; 2020 gcnyin"
 nav:
-  - Home: index.md
-  - Suggestions: suggestions.md
-  - FAQ: faq.md
-  - About: about.md
+  - 主页: index.md
+  - 一些建议: suggestions.md
+  - 踩坑指南: faq.md
+  - 关于: about.md
   - Chapter1:
       - System Call: chapter1/system-call.md
       - File Descriptor: chapter1/file-descriptor.md
@@ -28,7 +28,7 @@ theme:
   font: false
 
 extra:
-    #  disqus: "your-shortname"
+  disqus: "gcnyin"
   social:
     - type: "github"
       link: "https://github.com/gcnyin"
