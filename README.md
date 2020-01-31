@@ -2,10 +2,8 @@
 
 ## Setup
 
-Install `mydocs` tool, `bootstrap4` theme and `mkdocs-git-committers-plugin` plugin.
-
 ```
-$ pip install -U mkdocs mkdocs-bootstrap4 mkdocs-git-committers-plugin
+$ pip install -U mkdocs mkdocs-material pygments
 ```
 
 ## Local Serve
@@ -18,4 +16,10 @@ $ mkdocs serve
 
 ```
 $ mkdocs build
+```
+
+## Deploy Github Pages
+
+```
+$ mkdocs gh-deploy
 ```
