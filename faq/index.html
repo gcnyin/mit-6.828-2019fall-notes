@@ -38,7 +38,7 @@
         <meta name="lang:search.tokenizer" content="[\uff0c\u3002]+">
       
       <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.3">
     
     
       
@@ -46,7 +46,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application.1b62728e.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.adb8469c.css">
       
         <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
       
@@ -57,7 +57,7 @@
       
     
     
-      <script src="../assets/javascripts/modernizr.268332fc.js"></script>
+      <script src="../assets/javascripts/modernizr.86422ebf.js"></script>
     
     
       
@@ -87,7 +87,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#faq" tabindex="1" class="md-skip">
+      <a href="#faq" tabindex="0" class="md-skip">
         跳转至
       </a>
     
@@ -96,7 +96,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="https://gcnyin.github.io/mit-6.828-2019fall-notes/" title="Mit 6.828 Notes" class="md-header-nav__button md-logo">
+        <a href="https://gcnyin.github.io/mit-6.828-2019fall-notes/" title="Mit 6.828 Notes" aria-label="Mit 6.828 Notes" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -127,7 +127,7 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <input type="text" class="md-search__input" aria-label="search" name="query" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
       <label class="md-icon md-search__icon" for="__search"></label>
       <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
         &#xE5CD;
@@ -570,19 +570,19 @@
 <h2 id="2-c">2. 为什么我添加了.c文件却无法编译？</h2>
 <p>修改Makefile中的UPROGS。如果添加的文件名为'user/xxx.c'，那么就在UPROGS下添加'$U/_xxx\'</p>
 <h2 id="3-qemu-emulator">3. 如何退出qemu emulator？</h2>
-<div class="codehilite"><pre><span></span><span class="err">&lt;Ctrl a + x&gt;</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">&lt;Ctrl a + x&gt;</span>
+</code></pre></div>
 
 
 <h2 id="4-riscv64">4. 安装riscv64时遇到了问题？</h2>
 <p>如果make时出现这样的错误</p>
-<div class="codehilite"><pre><span></span><span class="err">riscv64-unknown-elf-gcc Library not loaded: /usr/local/opt/isl/lib/libisl.21.dylib</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">riscv64-unknown-elf-gcc Library not loaded: /usr/local/opt/isl/lib/libisl.21.dylib</span>
+</code></pre></div>
 
 
 <p>考虑使用<a href="https://github.com/riscv/homebrew-riscv/issues/15">这个issue</a>提到的方式来修复</p>
-<div class="codehilite"><pre><span></span>$ brew reinstall --build-from-source riscv-gcc
-</pre></div>
+<div class="codehilite"><pre><span></span><code>$ brew reinstall --build-from-source riscv-gcc
+</code></pre></div>
                 
                   
                 
@@ -661,16 +661,16 @@
           </div>
         
         powered by
-        <a href="https://www.mkdocs.org">MkDocs</a>
+        <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
         and
-        <a href="https://squidfunk.github.io/mkdocs-material/">
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
           Material for MkDocs</a>
       </div>
       
   <div class="md-footer-social">
     <link rel="stylesheet" href="../assets/fonts/font-awesome.css">
     
-      <a href="https://github.com/gcnyin" class="md-footer-social__link fa fa-github"></a>
+      <a href="https://github.com/gcnyin" target="_blank" rel="noopener" title="github" class="md-footer-social__link fa fa-github"></a>
     
   </div>
 
@@ -680,7 +680,7 @@
       
     </div>
     
-      <script src="../assets/javascripts/application.808e90bb.js"></script>
+      <script src="../assets/javascripts/application.c33a9706.js"></script>
       
         
         
